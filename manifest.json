@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+  
+    "name": "Chomp-n-Chew",
+    "description": "This extension will tell you when to chomp and chew. Swallow at your own risk",
+    "version": "1.0",
+  
+    "browser_action": {
+     "default_icon": "chrometest.png",
+     "default_popup": "popup.html"
+    },
+    "permissions": [
+     "activeTab"
+     ]
+  }
